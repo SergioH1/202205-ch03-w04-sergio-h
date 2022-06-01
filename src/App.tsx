@@ -1,16 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Card } from './components/Card/card';
+
+import { Father } from './components/Father/father';
 
 function App() {
-  return (
-    <div className=".characters-list">
-
-      <Card></Card>
-    </div>
-  );
-
+  return <Father></Father>;
 }
 
-export default App; 
+export default App;
